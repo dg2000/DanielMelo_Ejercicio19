@@ -1,4 +1,4 @@
-segunda: rumge_segundo_orden.png
+segunda: rumge_segundo_orden.png rumge_primer_orden.png
 
 rumge_segundo_orden.png: DanielMelo_Grafica2.py segundo_orden.txt
 	python DanielMelo_Grafica2.py

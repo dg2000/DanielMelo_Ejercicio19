@@ -43,7 +43,15 @@ int main()
 
       x = x + h;
 
-      y = y + h*(k1 + 2.0*k2 + 2.0*k3 + k4)/6.0;
+      double p1 = z;
+
+      double p2 = z + h*p1/2.0;
+
+      double p3 = z + h*p2/2.0;
+
+      double p4 = z + h*p3/2.0;
+      
+      y = y + h*(p1 + 2.0*p2 + 2.0*p3 + p4)/6.0;
 
       
 
